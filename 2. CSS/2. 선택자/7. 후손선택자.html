@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!--후손 선택자는 공백으로 나타냄. 자식선택자는 직속에 있어야 하고 후손선택자는 안에만 있으면 됨
+  많은 요소를 한꺼번에 지목할때 후손 선택자 사용-->
+  <style>
+    div .orange {
+      color: orange;
+    }
+  </style>
+</head>
+<body>
+
+  <body>
+    <h1>안녕안녕~~~</h1>
+
+    <div>
+      <ul>
+        <li>사과</li>
+        <li class="orange">오렌지</li>
+        <li>딸기</li>
+      </ul>
+    </div>
+  
+    <div>당근</div>
+    <p>토마토</p>
+    <span class="orange">오렌지</span>
+  </body>
+  
+</body>
+</html>

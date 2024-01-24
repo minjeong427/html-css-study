@@ -3,7 +3,7 @@
 @import "./side.css";
 
 h1, p {
-  color: blue;
-  background: yellow;
+  color: rgb(12, 12, 170);
+  background: rgb(3, 248, 85);
 
 }
