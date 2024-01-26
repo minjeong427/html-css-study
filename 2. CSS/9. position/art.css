@@ -1,0 +1,71 @@
+@import url(../../common.css);
+
+body {
+  background: gray;
+  font-size: 14px;
+  line-height: 1.5;
+  color: black;
+  font-family: '굴림', 'Gulim', serif;
+}
+#wrapper {
+  width: 50%;
+  margin: 0 auto ;
+}
+header h1{
+  background: orange;
+  color: white;
+  font-weight: bold;
+  padding: 5px 20px;
+  font-size: 80px;
+  font-family: '고딕체', sans-serif;
+  text-align: justify;
+  line-height: 1em;
+}
+header span {
+  font-size: 20px;
+}
+
+
+.stit {
+  background: rgb(180, 179, 179);
+  font-size: 15px;
+  text-align: center;
+}
+#wrapper .container {
+  background: lightgray;
+}
+
+/* 왼쪽 */
+#wrapper .container .side-menu {
+  background: white;
+  float: left;
+  width: 25%;
+}
+#wrapper .container .side-menu h3 {
+  background: rgb(150, 17, 17);
+  color: white;
+  
+}
+#wrapper .container .side-menu ul {
+  font-size: 15px;
+  text-decoration: underline;
+  
+}
+
+/* 가운데 */
+#wrapper .container .main-content {
+  float: left;
+  width: 50%;
+}
+#wrapper .container .main-content h4{
+  background: #123456;
+  color: white;
+
+}
+
+/* 오른쪽 */
+#wrapper .banner {
+  float: right;
+  background: white;
+  width: 25%;
+}
