@@ -5,34 +5,40 @@ body {
   font-size: 14px;
   line-height: 1.5;
   color: black;
-  font-family: '굴림', 'Gulim', serif;
+  font-family: '고딕체' serif;
 }
 #wrapper {
   width: 50%;
   margin: 0 auto ;
 }
+/* 헤더 */
 header h1{
   background: orange;
+  width: 100%;
+  padding: 10px;
+  line-height: 0.5;
   color: white;
   font-weight: bold;
-  padding: 5px 20px;
-  font-size: 80px;
-  font-family: '고딕체', sans-serif;
-  text-align: justify;
-  line-height: 1em;
+  display: block;
+  font-size: 70px;
+  text-align: center;
+  
 }
 header span {
-  font-size: 20px;
+  font-size: 15px;
+  display: block;
+  margin-top: 30px;
 }
 
 
 .stit {
   background: rgb(180, 179, 179);
-  font-size: 15px;
+  font-size: 10px;
   text-align: center;
 }
+
 #wrapper .container {
-  background: lightgray;
+  background: #ccc;
 }
 
 /* 왼쪽 */
@@ -40,15 +46,20 @@ header span {
   background: white;
   float: left;
   width: 25%;
+  height: 600px;
 }
 #wrapper .container .side-menu h3 {
   background: rgb(150, 17, 17);
   color: white;
-  
+  font-weight: bold;
+  padding: 10px;
 }
 #wrapper .container .side-menu ul {
-  font-size: 15px;
+  font-size: 12px;
   text-decoration: underline;
+  margin: 10px;
+  line-height: 2.5em;
+  font-weight: bold;
   
 }
 
@@ -56,16 +67,70 @@ header span {
 #wrapper .container .main-content {
   float: left;
   width: 50%;
+  padding: 5px;
+  height: auto;
 }
 #wrapper .container .main-content h4{
   background: #123456;
   color: white;
-
+  font-size: 15px;
+ 
+}
+.main-content .art-piece .artist {
+  font-size: 15px;
+  color: #123456;
+  margin: 10px 0;
+  font-weight: bold;
+}
+.main-content .art-piece .detail {
+  font-size: 10px;
+  color: #123456;
+  margin: 10px 0;
 }
 
 /* 오른쪽 */
 #wrapper .banner {
-  float: right;
+  float: left;
   background: white;
   width: 25%;
+  height: 600px;
+
+}
+.banner h3 {
+  margin: 10px;
+  font-size: 18px;
+}
+.banner .all {
+  color: gray;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.banner .love {
+  color: orange;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.banner .link {
+  margin: 20px 5px;
+  font-size: 12px;
+}
+.banner h3 strong {
+  color: black;
+  font-weight: bold;
+}
+.banner .link a {
+  text-decoration: underline;
+  font-weight: bold;
+
+}
+
+/* footer */
+footer address {
+  color: white;
+  font-size: 10px;
+  background: #123456;
+  text-align: center;
+}
+footer address a {
+  text-decoration: underline;
 }
